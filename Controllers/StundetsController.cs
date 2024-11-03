@@ -75,17 +75,18 @@ namespace student_manager.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(Student viewModel)
+        public async Task<IActionResult> Delete(Guid id)
+        // public async Task<IActionResult> Delete(Student viewModel)
         {
-            var student = await dbContext.Students.FindAsync(viewModel.Id);
+            var student = await dbContext.Students.FindAsync(id);
+            // var student = await dbContext.Students.FirstOrDefaultAsync(viewModel.Id, );
 
             if (student is not null)
             {
-                dbContext.Students.Remove(viewModel);
+                dbContext.Students.Remove(student);
                 await dbContext.SaveChangesAsync();
             }
             return RedirectToAction("List", "Students");
-
         }
     }
 }
