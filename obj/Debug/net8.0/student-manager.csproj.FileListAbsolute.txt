@@ -166,3 +166,4 @@ C:\Users\DELL\Desktop\My practice\student-manager\obj\Debug\net8.0\refint\studen
 C:\Users\DELL\Desktop\My practice\student-manager\obj\Debug\net8.0\student-manager.pdb
 C:\Users\DELL\Desktop\My practice\student-manager\obj\Debug\net8.0\student-manager.genruntimeconfig.cache
 C:\Users\DELL\Desktop\My practice\student-manager\obj\Debug\net8.0\ref\student-manager.dll
+C:\Users\DELL\Desktop\My practice\student-manager\obj\Debug\net8.0\student-manager.sourcelink.json
